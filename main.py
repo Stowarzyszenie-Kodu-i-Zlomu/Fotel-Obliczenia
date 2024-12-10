@@ -26,7 +26,7 @@ def rotation_matrix(pitch, roll):
     return R_roll @ R_pitch
 
 def point_to_vector(point):
-    """convert point to vector, duh"""
+    """convert point to vector,  duh"""
     return np.array([
         [point[0]],
         [point[1]],
